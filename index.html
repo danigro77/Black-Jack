@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Black Jack</title>
+	<link href='http://fonts.googleapis.com/css?family=Unlock' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="js/jQuery.js" type="text/javascript"></script>
+        <script src="js/blackJack.js" type="text/javascript"></script>
+<!--        <script src="js/view.js" type="text/javascript"></script>
+-->
+</head>
+<body>
+        <div id="wrapper">
+                <header>
+			<h1>Black Jack</h1>
+			<p id="welcome">Welome stranger! Click on the deck of cards to beginn the game.<p>
+		</header>
+		<div id="cards">
+		    <div id="sec1">
+			<p id="nameHand" class="cardsText"></p>
+			<ul id="hand"></ul>
+		    </div>
+		    <div id="sec2">
+			<p id="dealHand" class="cardsText"></p>
+			<ul id="dealer2" style="display: block;"></ul>
+			<ul id="dealer" style="display: none;"></ul>
+		    </div>
+		    <div id="sec3">
+			<p><span id="cardsButton1" style="display: none;"></span><span id="cardsButton2" style="display: none;"></span></p>
+		    </div>
+		</div>
+
+                <div id="game">
+			<img src="images/carddeck.jpg" alt="a deck of cards" title="New Player? Click for a new Game." id="carddeck" onclick="newPlayersGame()" />
+                </div>
+
+		<div id="results">
+			<div id="sec4">
+				<div id="result" style="display: none;"></div>
+			</div>
+			<div id="sec5">
+				<div id="newGame" style="display: none;"></div>
+			</div>
+			<table id="statistic"></table>
+		</div>
+
+		<div id="underCards"></div>
+        </div>
+
+
+</body>
+</html>
+

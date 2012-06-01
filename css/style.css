@@ -1,0 +1,198 @@
+body, html 	{
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+
+	/*************************
+		HEADER
+	*************************/
+
+header		{
+	text-align: center;
+	font-size: 1.2em;
+}
+
+h1 		{
+	font-family: 'Unlock', cursive;
+	text-align: center;
+	font-size: 3em;
+}
+
+	/********************************
+		THE WRAPPER and DIVs
+	********************************/
+
+#wrapper 	{
+	margin: 10px auto;
+	width: 	1200px;
+}
+
+#cards, #game, #results	{
+	float: 	left;
+	width: 	400px;
+}
+
+
+
+	/*************************
+		DIV CARDS
+	*************************/
+
+#cards 		{
+	text-align: left;
+	
+}
+
+#sec1, #sec2	{
+	height:	150px;
+}
+
+#hand		{
+
+}
+
+.cardsText	{
+	font-size: 1.3em;
+}
+
+#firstCard	{
+	font-size: 1em;
+}
+
+	/******* BUTTONS *******/
+
+#anotherCard, #noCard	{
+	float: 	left;
+	width: 	180px;
+}
+#anotherCard	{
+
+}
+
+#noCard		{
+	margin-left: 10px;
+}
+
+#dealer:first-child {
+}
+
+#dealer		{
+
+}
+
+.suitImg	{
+	height: 20px;
+}
+
+	/*************************
+		DIV GAME
+	*************************/
+#game		{
+
+}	
+
+#carddeck	{
+
+}
+
+	/*************************
+		DIV RESULTS
+	*************************/
+#results	{
+
+}
+
+#result		{
+	
+	text-align: center;
+}
+
+.score		{
+	font-size: 1.2em;
+
+}
+
+#win, #lose, #tied {
+	font-family: 'Unlock', cursive;
+	font-size: 2em;
+}
+
+#win 		{
+	color: green;
+
+}
+
+#lose 		{
+
+	color: red;
+}
+
+#tied		{
+	color: yellow;
+
+}
+
+#points		{
+	
+}
+
+	/******* Button ********/
+#newGame	{
+
+	margin: 30px auto;
+	padding-left: 100px
+}
+
+#anotherGame	{
+
+}
+
+#sec4		{
+	height:	150px;
+}
+
+#sec5		{
+	height:	100px;
+}
+
+
+	/******* table ********/
+#statistic	{
+	margin:	0 auto;
+	height: 100px;
+}
+
+#userStat	{
+
+}
+
+#drawStat	{
+
+}
+
+#dealerStat	{
+
+}
+
+
+	/*************************
+		DIV UNDERCARDS 
+	*************************/
+
+#underCards 	{
+	clear:	left;
+	margin:	5px auto;
+	width: 	1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
